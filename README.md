@@ -1,5 +1,4 @@
 # ToDo-App using React + Vite
-
 This is a completely responsive simple todo app designed for only educational purpose. However more functionality can be added accodingly.
 
 ## How to use it.
