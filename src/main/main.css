@@ -1,0 +1,54 @@
+.container {
+    height: 80vh;
+    width: 80%;
+    background-color: rgb(252, 234, 203);
+    border-radius: 40px; 
+}
+
+#intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    font-size: clamp(30px,8vw,50px);
+    font-weight: 400;
+    font-family: cursive;
+    color: #5F432F;
+    border-width: 0px 0px 4px 0px;
+    border-style: solid;
+    border-color: #5F432F;
+}
+
+.logo{
+    height: clamp(30px,8vw,50px);
+    padding-right: 10px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+}
+
+#todos{
+    width: 100%;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+#input {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 500px) {
+    .container{
+        width: 100%;
+    }
+    
+}

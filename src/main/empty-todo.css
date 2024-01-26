@@ -1,0 +1,12 @@
+#emptyDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#emptyDiv svg {
+    height: clamp(100px,20vw,200px);
+    color: #c3a27f;
+}
